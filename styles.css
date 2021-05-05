@@ -94,10 +94,10 @@ h4{
 .grid{
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[12];
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-columns: repeat(12, 1fr);
   box-sizing: border-box;
-  -ms-grid-rows: (1fr)[24];
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: repeat(24, 1fr);
   height: 100vh;
   width: 100vw;
@@ -272,19 +272,19 @@ h4{
   display: -ms-grid;
   display: grid;
   height: 100%;
-  -ms-grid-rows: (1fr)[4];
-      grid-template-rows: repeat(4, 1fr);
+  -ms-grid-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
   gap: 5%;
 }
 #packages .card{
    background: white;
    border-radius: 27px;
    -webkit-filter: drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.05));
-           filter: drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.05));
+   filter: drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.05));
 }
 #packages .card .container{
-  -ms-grid-columns: (1fr)[12];
-      grid-template-columns: repeat(12, 1fr);
+  -ms-grid-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   gap: 0;
 }
 #packages .card .container img{
@@ -351,8 +351,8 @@ h4{
   display: -ms-grid;
   display: grid;
   height: 100%;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 5%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -611,7 +611,7 @@ h4{
   }
 
   #packages .card .container {
-    -ms-grid-columns: (1fr)[24];
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-columns: repeat(24, 1fr);
     -ms-grid-rows: 0;
         grid-template-rows: 0;
@@ -639,8 +639,9 @@ h4{
             align-items: center;
   }
   #packages {
-    -ms-grid-rows: (1fr)[28];
-        grid-template-rows: repeat(28, 1fr);
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    grid-template-rows: repeat(28, 1fr);
   }
 /* 
   body{
