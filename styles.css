@@ -348,10 +348,12 @@ h4{
 
 /* small tablet styles */
 @media screen and (min-width: 620px){
-/* 
+
+
   .welcome-text{
     grid-column: 1/5;
   }
+  /*
   .welcome-img{
     grid-column: 5/9;
   }
@@ -388,7 +390,7 @@ h4{
 
 /* large tablet & laptop styles */
 @media screen and (min-width: 960px){
-/* 
+/*
   body{
     font-size: 18px;
   }
@@ -515,7 +517,7 @@ h4{
   #packages {
     grid-template-rows: repeat(28, 1fr);
   }
-/* 
+/*
   body{
     font-size: 20px;
   }
